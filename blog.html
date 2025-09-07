@@ -30,10 +30,10 @@
 		<meta name="keywords" content="стоматолог, пародонтолог, лечение десен, имплантация, зубы, Москва">
 		<link rel="manifest" href="./files/manifest.json">
 		<title>Наам Константин Владимирович | Стоматолог-пародонтолог</title>
-		<script type="module" crossorigin="" src="./js/blog.min.js?v=1757247271547"></script>
+		<script type="module" crossorigin="" src="./js/blog.min.js?v=1757247865824"></script>
 		<link rel="modulepreload" crossorigin="" href="./js/app.min.js">
-		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1757247271547">
-		<link rel="stylesheet" crossorigin="" href="./css/blog.min.css?v=1757247271547">
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1757247865824">
+		<link rel="stylesheet" crossorigin="" href="./css/blog.min.css?v=1757247865824">
 	</head>
 	<body>
 		<div class="wrapper">
@@ -42,7 +42,9 @@
 					<!-- <include src="@components/layout/menu/menu.html" locals='{"active":"Home"}'></include> -->
 					<div class="header__logo">
 						<a href="index.html">
-							<img src="./assets/img/logo.png" width="206" alt="Логотип Наам К.В.">
+							<picture>
+								<img width="206" alt="Логотип Наам К.В." src="./assets/img/logo.webp">
+							</picture>
 						</a>
 					</div>
 					<div class="header__menu menu">
@@ -117,10 +119,22 @@
 							<div class="post__img">
 								<div data-fls-beforeafter="" class="before-after">
 									<div data-fls-beforeafter-before="" class="before-after__item">
-										<img src="./assets/img/blog/epulis-1/epulis-1-before.jpg" alt="Десна до удаления эпулиса" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/epulis-1/epulis-1-before-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/epulis-1/epulis-1-before-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/epulis-1/epulis-1-before-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/epulis-1/epulis-1-before-1920.webp" type="image/webp">
+											<img alt="Десна до удаления эпулиса" loading="lazy" src="./assets/img/blog/epulis-1/epulis-1-before.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-after="" class="before-after__item">
-										<img src="./assets/img/blog/epulis-1/epulis-1-after.jpg" alt="Десна после удаления эпулиса" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/epulis-1/epulis-1-after-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/epulis-1/epulis-1-after-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/epulis-1/epulis-1-after-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/epulis-1/epulis-1-after-1920.webp" type="image/webp">
+											<img alt="Десна после удаления эпулиса" loading="lazy" src="./assets/img/blog/epulis-1/epulis-1-after.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-arrow="" class="before-after__arrow">
 										<div class="before-after__arrows">
@@ -161,8 +175,19 @@
 									.
 								</p>
 								<div class="post__gallery">
-									<img src="./assets/img/blog/epulis-1/epulis-1-1.jpeg" alt="Снимок десны до лечения" loading="lazy">
-									<img src="./assets/img/blog/epulis-1/epulis-1-2.jpeg" alt="Снимок десны под углом" loading="lazy">
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/epulis-1/epulis-1-1-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/epulis-1/epulis-1-1-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/epulis-1/epulis-1-1-1200.webp" type="image/webp">
+										<source media="(max-width: 1920px)" srcset="./assets/img/blog/epulis-1/epulis-1-1-1920.webp" type="image/webp">
+										<img alt="Снимок десны до лечения" loading="lazy" src="./assets/img/blog/epulis-1/epulis-1-1.webp">
+									</picture>
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/epulis-1/epulis-1-2-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/epulis-1/epulis-1-2-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/epulis-1/epulis-1-2-1200.webp" type="image/webp">
+										<img alt="Снимок десны под углом" loading="lazy" src="./assets/img/blog/epulis-1/epulis-1-2.webp">
+									</picture>
 								</div>
 								<h3>⚕️ Как проходило лечение?</h3>
 								<p>
@@ -171,17 +196,45 @@
 						была ушита.
 								</p>
 								<div class="post__gallery">
-									<img src="./assets/img/blog/epulis-1/epulis-1-3.jpeg" alt="Ход операции" loading="lazy">
-									<img src="./assets/img/blog/epulis-1/epulis-1-4.JPG" alt="Ушивание раны" loading="lazy">
-									<img src="./assets/img/blog/epulis-1/epulis-1-5.JPG" alt="Завершение операции" loading="lazy">
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/epulis-1/epulis-1-3-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/epulis-1/epulis-1-3-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/epulis-1/epulis-1-3-1200.webp" type="image/webp">
+										<source media="(max-width: 1920px)" srcset="./assets/img/blog/epulis-1/epulis-1-3-1920.webp" type="image/webp">
+										<img alt="Ход операции" loading="lazy" src="./assets/img/blog/epulis-1/epulis-1-3.webp">
+									</picture>
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/epulis-1/epulis-1-4-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/epulis-1/epulis-1-4-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/epulis-1/epulis-1-4-1200.webp" type="image/webp">
+										<source media="(max-width: 1920px)" srcset="./assets/img/blog/epulis-1/epulis-1-4-1920.webp" type="image/webp">
+										<img alt="Ушивание раны" loading="lazy" src="./assets/img/blog/epulis-1/epulis-1-4.webp">
+									</picture>
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/epulis-1/epulis-1-5-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/epulis-1/epulis-1-5-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/epulis-1/epulis-1-5-1200.webp" type="image/webp">
+										<img alt="Завершение операции" loading="lazy" src="./assets/img/blog/epulis-1/epulis-1-5.webp">
+									</picture>
 								</div>
 								<p>
 									Через два дня — лёгкая отёчность, но болей не было. На 10-й день швы сняли, всё заживало
 						спокойно.
 								</p>
 								<div class="post__gallery">
-									<img src="./assets/img/blog/epulis-1/epulis-1-6.jpeg" alt="Заживление на 10-й день" loading="lazy">
-									<img src="./assets/img/blog/epulis-1/epulis-1-7.jpeg" alt="Полное заживление" loading="lazy">
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/epulis-1/epulis-1-6-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/epulis-1/epulis-1-6-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/epulis-1/epulis-1-6-1200.webp" type="image/webp">
+										<source media="(max-width: 1920px)" srcset="./assets/img/blog/epulis-1/epulis-1-6-1920.webp" type="image/webp">
+										<img alt="Заживление на 10-й день" loading="lazy" src="./assets/img/blog/epulis-1/epulis-1-6.webp">
+									</picture>
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/epulis-1/epulis-1-7-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/epulis-1/epulis-1-7-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/epulis-1/epulis-1-7-1200.webp" type="image/webp">
+										<img alt="Полное заживление" loading="lazy" src="./assets/img/blog/epulis-1/epulis-1-7.webp">
+									</picture>
 								</div>
 								<h3>✅ Контроль и результат</h3>
 								<p>
@@ -208,10 +261,22 @@
 							<div class="post__img">
 								<div data-fls-beforeafter="" class="before-after">
 									<div data-fls-beforeafter-before="" class="before-after__item">
-										<img src="./assets/img/blog/Gingivitis-1/Gingivitis-1-before.jpg" alt="Десна до лечения гингивита" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-before-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-before-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-before-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-before-1920.webp" type="image/webp">
+											<img alt="Десна до лечения гингивита" loading="lazy" src="./assets/img/blog/Gingivitis-1/Gingivitis-1-before.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-after="" class="before-after__item">
-										<img src="./assets/img/blog/Gingivitis-1/Gingivitis-1-after.jpg" alt="Десна после лечения гингивита" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-after-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-after-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-after-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-after-1920.webp" type="image/webp">
+											<img alt="Десна после лечения гингивита" loading="lazy" src="./assets/img/blog/Gingivitis-1/Gingivitis-1-after.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-arrow="" class="before-after__arrow">
 										<div class="before-after__arrows">
@@ -250,8 +315,20 @@
 									<li>Рекомендован ирригатор и межзубные ёршики</li>
 								</ul>
 								<div class="post__gallery">
-									<img src="./assets/img/blog/Gingivitis-1/Gingivitis-1-1.jpeg" alt="Десны до гигиены" loading="lazy">
-									<img src="./assets/img/blog/Gingivitis-1/Gingivitis-1-after.jpg" alt="Результат через 2 недели" loading="lazy">
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-1-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-1-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-1-1200.webp" type="image/webp">
+										<source media="(max-width: 1920px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-1-1920.webp" type="image/webp">
+										<img alt="Десны до гигиены" loading="lazy" src="./assets/img/blog/Gingivitis-1/Gingivitis-1-1.webp">
+									</picture>
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-after-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-after-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-after-1200.webp" type="image/webp">
+										<source media="(max-width: 1920px)" srcset="./assets/img/blog/Gingivitis-1/Gingivitis-1-after-1920.webp" type="image/webp">
+										<img alt="Результат через 2 недели" loading="lazy" src="./assets/img/blog/Gingivitis-1/Gingivitis-1-after.webp">
+									</picture>
 								</div>
 								<h3>✅ Результат через 2 недели</h3>
 								<p>
@@ -271,10 +348,22 @@
 							<div class="post__img">
 								<div data-fls-beforeafter="" class="before-after">
 									<div data-fls-beforeafter-before="" class="before-after__item">
-										<img src="./assets/img/blog/Bleaching-1/Bleaching-1-before.jpg" alt="Зубы до отбеливания" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-before-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-before-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-before-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-before-1920.webp" type="image/webp">
+											<img alt="Зубы до отбеливания" loading="lazy" src="./assets/img/blog/Bleaching-1/Bleaching-1-before.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-after="" class="before-after__item">
-										<img src="./assets/img/blog/Bleaching-1/Bleaching-1-after.jpg" alt="Зубы после отбеливания" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-after-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-after-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-after-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-after-1920.webp" type="image/webp">
+											<img alt="Зубы после отбеливания" loading="lazy" src="./assets/img/blog/Bleaching-1/Bleaching-1-after.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-arrow="" class="before-after__arrow">
 										<div class="before-after__arrows">
@@ -306,8 +395,20 @@
 							Отбеливать «по верхам» — как макияж на немытой коже.
 									</p>
 									<div class="post__gallery">
-										<img src="./assets/img/blog/Bleaching-1/Bleaching-1-1.JPG" alt="Подготовка к отбеливанию" loading="lazy">
-										<img src="./assets/img/blog/Bleaching-1/Bleaching-1-2.JPG" alt="Процедура отбеливания" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-1-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-1-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-1-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-1-1920.webp" type="image/webp">
+											<img alt="Подготовка к отбеливанию" loading="lazy" src="./assets/img/blog/Bleaching-1/Bleaching-1-1.webp">
+										</picture>
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-2-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-2-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-2-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-2-1920.webp" type="image/webp">
+											<img alt="Процедура отбеливания" loading="lazy" src="./assets/img/blog/Bleaching-1/Bleaching-1-2.webp">
+										</picture>
 									</div>
 									<h3>⚡ Процедура</h3>
 									<p>
@@ -319,7 +420,13 @@
 									</p>
 									<h3>✅ Результат через 14 дней</h3>
 									<div class="post__gallery">
-										<img src="./assets/img/blog/Bleaching-1/Bleaching-1-3.JPG" alt="Результат отбеливания" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-3-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-3-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-3-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/Bleaching-1/Bleaching-1-3-1920.webp" type="image/webp">
+											<img alt="Результат отбеливания" loading="lazy" src="./assets/img/blog/Bleaching-1/Bleaching-1-3.webp">
+										</picture>
 									</div>
 									<p>
 										Улыбка посвежела, осветлилась, но осталась естественной. Никакой «белизны унитаза» — только
@@ -339,7 +446,13 @@
 							<div class="post__img">
 								<div data-fls-beforeafter="" class="before-after">
 									<div data-fls-beforeafter-before="" class="before-after__item">
-										<img src="./assets/img/blog/removal-1/removal-1.jpg" alt="Удалённый зуб" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/removal-1/removal-1-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/removal-1/removal-1-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/removal-1/removal-1-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/removal-1/removal-1-1920.webp" type="image/webp">
+											<img alt="Удалённый зуб" loading="lazy" src="./assets/img/blog/removal-1/removal-1.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-arrow="" class="before-after__arrow">
 										<div class="before-after__arrows">
@@ -368,8 +481,19 @@
 									.
 								</p>
 								<div class="post__gallery">
-									<img src="./assets/img/blog/removal-1/removal-1-1.jpg" alt="Рентген зуба 4.8 с гранулемой" loading="lazy">
-									<img src="./assets/img/blog/removal-1/removal-1-2.JPG" alt="Ход удаления зуба" loading="lazy">
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/removal-1/removal-1-1-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/removal-1/removal-1-1-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/removal-1/removal-1-1-1200.webp" type="image/webp">
+										<img alt="Рентген зуба 4.8 с гранулемой" loading="lazy" src="./assets/img/blog/removal-1/removal-1-1.webp">
+									</picture>
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/removal-1/removal-1-2-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/removal-1/removal-1-2-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/removal-1/removal-1-2-1200.webp" type="image/webp">
+										<source media="(max-width: 1920px)" srcset="./assets/img/blog/removal-1/removal-1-2-1920.webp" type="image/webp">
+										<img alt="Ход удаления зуба" loading="lazy" src="./assets/img/blog/removal-1/removal-1-2.webp">
+									</picture>
 								</div>
 								<h3>⚕️ Лечение</h3>
 								<p>Провели удаление по всем правилам:</p>
@@ -398,10 +522,22 @@
 							<div class="post__img">
 								<div data-fls-beforeafter="" class="before-after">
 									<div data-fls-beforeafter-before="" class="before-after__item">
-										<img src="./assets/img/blog/hygiene-1/hygiene-1-before.jpg" alt="Зубы до профессиональной чистки" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-before-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-before-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-before-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-before-1920.webp" type="image/webp">
+											<img alt="Зубы до профессиональной чистки" loading="lazy" src="./assets/img/blog/hygiene-1/hygiene-1-before.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-after="" class="before-after__item">
-										<img src="./assets/img/blog/hygiene-1/hygiene-1-after.jpg" alt="Зубы после гигиены" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-after-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-after-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-after-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-after-1920.webp" type="image/webp">
+											<img alt="Зубы после гигиены" loading="lazy" src="./assets/img/blog/hygiene-1/hygiene-1-after.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-arrow="" class="before-after__arrow">
 										<div class="before-after__arrows">
@@ -430,8 +566,20 @@
 						пятна.
 								</p>
 								<div class="post__gallery">
-									<img src="./assets/img/blog/hygiene-1/hygiene-1-1.JPG" alt="Налёт до чистки, выявленный индикатором" loading="lazy">
-									<img src="./assets/img/blog/hygiene-1/hygiene-1-2.JPG" alt="Процесс профессиональной чистки" loading="lazy">
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-1-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-1-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-1-1200.webp" type="image/webp">
+										<source media="(max-width: 1920px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-1-1920.webp" type="image/webp">
+										<img alt="Налёт до чистки, выявленный индикатором" loading="lazy" src="./assets/img/blog/hygiene-1/hygiene-1-1.webp">
+									</picture>
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-2-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-2-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-2-1200.webp" type="image/webp">
+										<source media="(max-width: 1920px)" srcset="./assets/img/blog/hygiene-1/hygiene-1-2-1920.webp" type="image/webp">
+										<img alt="Процесс профессиональной чистки" loading="lazy" src="./assets/img/blog/hygiene-1/hygiene-1-2.webp">
+									</picture>
 								</div>
 								<h3>📚 Обучение</h3>
 								<p>
@@ -455,7 +603,13 @@
 							<div class="post__img">
 								<div data-fls-beforeafter="" class="before-after">
 									<div data-fls-beforeafter-before="" class="before-after__item">
-										<img src="./assets/img/blog/removal-2/removal-2.jpg" alt="Удалённый зуб" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/removal-2/removal-2-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/removal-2/removal-2-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/removal-2/removal-2-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/removal-2/removal-2-1920.webp" type="image/webp">
+											<img alt="Удалённый зуб" loading="lazy" src="./assets/img/blog/removal-2/removal-2.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-arrow="" class="before-after__arrow">
 										<div class="before-after__arrows">
@@ -482,7 +636,12 @@
 						— пустые корневые каналы, признаки хронического апикального периодонтита.
 								</p>
 								<div class="post__gallery">
-									<img src="./assets/img/blog/removal-2/removal-2-1.jpg" alt="Рентген зуба 4.8 с признаками периодонтита" loading="lazy">
+									<picture>
+										<source media="(max-width: 450px)" srcset="./assets/img/blog/removal-2/removal-2-1-450.webp" type="image/webp">
+										<source media="(max-width: 600px)" srcset="./assets/img/blog/removal-2/removal-2-1-600.webp" type="image/webp">
+										<source media="(max-width: 1200px)" srcset="./assets/img/blog/removal-2/removal-2-1-1200.webp" type="image/webp">
+										<img alt="Рентген зуба 4.8 с признаками периодонтита" loading="lazy" src="./assets/img/blog/removal-2/removal-2-1.webp">
+									</picture>
 								</div>
 								<h3>⚕️ Лечение</h3>
 								<p>
@@ -507,10 +666,22 @@
 							<div class="post__img">
 								<div data-fls-beforeafter="" class="before-after">
 									<div data-fls-beforeafter-before="" class="before-after__item">
-										<img src="./assets/img/blog/hygiene-2/hygiene-2-before.jpg" alt="Зубы до профилактической чистки" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/hygiene-2/hygiene-2-before-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/hygiene-2/hygiene-2-before-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/hygiene-2/hygiene-2-before-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/hygiene-2/hygiene-2-before-1920.webp" type="image/webp">
+											<img alt="Зубы до профилактической чистки" loading="lazy" src="./assets/img/blog/hygiene-2/hygiene-2-before.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-after="" class="before-after__item">
-										<img src="./assets/img/blog/hygiene-2/hygiene-2-after.jpg" alt="Зубы после профессиональной гигиены" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/hygiene-2/hygiene-2-after-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/hygiene-2/hygiene-2-after-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/hygiene-2/hygiene-2-after-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/hygiene-2/hygiene-2-after-1920.webp" type="image/webp">
+											<img alt="Зубы после профессиональной гигиены" loading="lazy" src="./assets/img/blog/hygiene-2/hygiene-2-after.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-arrow="" class="before-after__arrow">
 										<div class="before-after__arrows">
@@ -570,10 +741,22 @@
 							<div class="post__img">
 								<div data-fls-beforeafter="" class="before-after">
 									<div data-fls-beforeafter-before="" class="before-after__item">
-										<img src="./assets/img/blog/Bleaching-2/Bleaching-2-before.jpg" alt="Зубы до профилактического приёма" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/Bleaching-2/Bleaching-2-before-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/Bleaching-2/Bleaching-2-before-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/Bleaching-2/Bleaching-2-before-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/Bleaching-2/Bleaching-2-before-1920.webp" type="image/webp">
+											<img alt="Зубы до профилактического приёма" loading="lazy" src="./assets/img/blog/Bleaching-2/Bleaching-2-before.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-after="" class="before-after__item">
-										<img src="./assets/img/blog/Bleaching-2/Bleaching-2-after.jpg" alt="Зубы после гигиены и полировки" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/Bleaching-2/Bleaching-2-after-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/Bleaching-2/Bleaching-2-after-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/Bleaching-2/Bleaching-2-after-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/Bleaching-2/Bleaching-2-after-1920.webp" type="image/webp">
+											<img alt="Зубы после гигиены и полировки" loading="lazy" src="./assets/img/blog/Bleaching-2/Bleaching-2-after.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-arrow="" class="before-after__arrow">
 										<div class="before-after__arrows">
@@ -625,10 +808,22 @@
 							<div class="post__img">
 								<div data-fls-beforeafter="" class="before-after">
 									<div data-fls-beforeafter-before="" class="before-after__item">
-										<img src="./assets/img/blog/Bleaching-3/Bleaching-3-before.jpg" alt="Зубы до отбеливания" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/Bleaching-3/Bleaching-3-before-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/Bleaching-3/Bleaching-3-before-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/Bleaching-3/Bleaching-3-before-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/Bleaching-3/Bleaching-3-before-1920.webp" type="image/webp">
+											<img alt="Зубы до отбеливания" loading="lazy" src="./assets/img/blog/Bleaching-3/Bleaching-3-before.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-after="" class="before-after__item">
-										<img src="./assets/img/blog/Bleaching-3/Bleaching-3-after.jpg" alt="Зубы после отбеливания" loading="lazy">
+										<picture>
+											<source media="(max-width: 450px)" srcset="./assets/img/blog/Bleaching-3/Bleaching-3-after-450.webp" type="image/webp">
+											<source media="(max-width: 600px)" srcset="./assets/img/blog/Bleaching-3/Bleaching-3-after-600.webp" type="image/webp">
+											<source media="(max-width: 1200px)" srcset="./assets/img/blog/Bleaching-3/Bleaching-3-after-1200.webp" type="image/webp">
+											<source media="(max-width: 1920px)" srcset="./assets/img/blog/Bleaching-3/Bleaching-3-after-1920.webp" type="image/webp">
+											<img alt="Зубы после отбеливания" loading="lazy" src="./assets/img/blog/Bleaching-3/Bleaching-3-after.webp">
+										</picture>
 									</div>
 									<div data-fls-beforeafter-arrow="" class="before-after__arrow">
 										<div class="before-after__arrows">
